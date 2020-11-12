@@ -1,0 +1,31 @@
+// base
+@import './base';
+// variables
+@import './variables';
+// queries
+@import './queries';
+// google fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;900&display=swap');
+$black: #000;
+$base-yellow: #000;
+$btn-color: #b0bff0;
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+#app {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
+  font-size: 12px;
+  padding: 0;
+  line-height: normal;
+}
